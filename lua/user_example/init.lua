@@ -93,7 +93,7 @@ local config = {
       highlighturl = true,
       hop = false,
       indent_blankline = true,
-      lightspeed = false,
+      lightspeed = true,
       ["neo-tree"] = true,
       notify = true,
       ["nvim-tree"] = false,
@@ -187,6 +187,10 @@ local config = {
 
       -- You can also add new plugins here as well:
       -- Add plugins, the packer syntax without the "use"
+
+      -- Lightspeed Ahead
+      { "ggandor/lightspeed.nvim" }
+      
       -- { "andweeb/presence.nvim" },
       -- {
       --   "ray-x/lsp_signature.nvim",
