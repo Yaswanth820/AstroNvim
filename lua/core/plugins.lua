@@ -1,7 +1,7 @@
 local astro_plugins = {
 
   -- Lightspeed Ahead
-  ["ggandor/lightspeed.nvim"] = {}
+  ["ggandor/lightspeed.nvim"] = {},
   
   -- Plugin manager
   ["wbthomason/packer.nvim"] = {},
